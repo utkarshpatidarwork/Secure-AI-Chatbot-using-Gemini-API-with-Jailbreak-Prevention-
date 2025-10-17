@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+jailbreak_log.txt
+
+# Config
+config.py
+.env
