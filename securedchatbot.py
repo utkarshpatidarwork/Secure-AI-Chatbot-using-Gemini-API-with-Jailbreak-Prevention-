@@ -5,7 +5,7 @@ import datetime
 # -------------------------------
 # 1. Configure Gemini
 # -------------------------------
-genai.configure(api_key="AIzaSyDMzB9ptDbUSAWvLZ32o38RoHjHdY3DCXM")
+genai.configure(api_key="API_KEY")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # -------------------------------
@@ -102,3 +102,4 @@ if __name__ == "__main__":
 
         response = chat_with_gemini(user_input)
         print("Chatbot:", response)
+
